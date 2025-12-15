@@ -1,10 +1,105 @@
+/* Estilos generales */
 body {
-    background-color: aqua;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
 }
 
+/* Encabezado */
+#encabezado {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
 
+#navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+#navegacion a:hover {
+    text-decoration: underline;
+}
+
+/* Sección principal */
+#inicio {
+    padding: 20px;
+}
+
+/* Presentación */
+#presentacion {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Imagen */
 .mi-foto {
-    border: 5px solid darkblue;
-    width: 150px;
-    border-radius: 50%;
+    display: block;
+    max-width: 200px;
+    margin-top: 15px;
+}
+
+/* Sobre mí */
+#sobre-mi {
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Listas */
+ul,
+ol {
+    margin-left: 20px;
+}
+
+/* Contacto */
+#contactame {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Formulario */
+form label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Pie de página */
+#pie-pagina {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
